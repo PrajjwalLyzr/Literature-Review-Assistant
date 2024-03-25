@@ -1,6 +1,6 @@
 # Welcome to the Literature Review by Lyzr!
 
-![Lyzr Logo](logo\lyzr-logo.png)
+![Lyzr Logo](./logo/lyzr-logo.png)
 
 Literature Review is a tool that helps researchers quickly summarize and analyze research papers. The QA Bot can be used to answer specific questions about the research methodology, findings, or conclusions within a paper.
 
