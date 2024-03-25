@@ -40,13 +40,13 @@ def save_uploaded_file(directory, uploaded_file):
 def reviewer(agent):
     results = {}
     prompts = {
-        "Summary" : "Write a 2 lines of brief summary about this research paper in simplest manner",
-        "Research Objectives":"What is the main research question the paper investigates? What are the specific objectives or hypotheses outlined in the paper? Make a 4-5 line of response",
-        "Methodology":"What research methodology was used in the study (e.g., survey, experiment, case study)? What is the population or sample size used in the research? How was the data collected and analyzed? Use 3-5 bullet points to show the response",
-        "Findings and Results":"What are the key findings or results presented in the paper? Are there any specific statistics, figures, or tables that highlight the results? How do the findings relate to the research question and objectives? Use 3-5 bullet points to show the response",
-        "Discussion and Conclusions":"What are the main conclusions drawn by the authors based on the findings? What are the limitations of the study or areas for future research? How do the paper's conclusions contribute to the existing body of knowledge in the field? Make a 4-5 line of response",
-        "Related Resarch":"Write down 5 research topic along with their titles based on in this research paper",
-        "Prototype":"User wants to write an extended research paper on the provided research paper, so what are the key points I should take care of and how can I proceed with this?"
+        "Summary": "Write 2 lines of summary about this research paper in the simplest manner",
+        "Research Objectives": "What is the main research question the paper investigates? What are the specific objectives or hypotheses outlined in the paper? Use 3-5 bullet points to show the response",
+        "Methodology": "What research methodology was used in the study (e.g., survey, experiment, case study)? What is the population or sample size used in the research? How was the data collected and analyzed? Use 3-5 bullet points to show the response",
+        "Findings and Results": "What are the key findings or results presented in the paper? Are there any specific statistics, figures, or tables that highlight the results? How do the findings relate to the research question and objectives? Use 3-5 bullet points to show the response",
+        "Discussion and Conclusions": "What are the main conclusions drawn by the authors based on the findings? What are the limitations of the study or areas for future research? How do the paper's conclusions contribute to the existing body of knowledge in the field? Make a 4-5 line of response",
+        "Related Research": "Write down 5 research topics along with their titles based on this research paper",
+        "Prototype": "The user wants to write an extended research paper on the provided research paper, so what are the key points I should take care of and how can I proceed with this?"
     }
 
     for heading, prompt in prompts.items():
